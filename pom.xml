@@ -28,7 +28,6 @@
             <groupId>org.hibernate.orm</groupId>
             <artifactId>hibernate-jpamodelgen</artifactId>
             <version>${hibernate.version}</version>
-            <optional>true</optional>
             <exclusions>
 <!--                <exclusion>-->
 <!--                    <groupId>javax.xml.bind</groupId>-->
