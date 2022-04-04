@@ -5,3 +5,18 @@
 == Overview
 
 Issue reproduction for https://hibernate.atlassian.net/browse/HHH-15163[HHH-15163].
+
+=== Resolution
+
+We have to add this to make it build successfully :
+
+[source,xml]
+----
+<dependency>
+    <groupId>jakarta.xml.bind</groupId>
+    <artifactId>jakarta.xml.bind-api</artifactId>
+    <version>3.0.1</version>
+    <scope>compile</scope>
+</dependency>
+----
+
