@@ -1,0 +1,7 @@
+= Issue Reproduction for HHH-15163
+:author: Guillaume HUSTA
+:toc:
+
+== Overview
+
+Issue reproduction for https://hibernate.atlassian.net/browse/HHH-15163[HHH-15163].
